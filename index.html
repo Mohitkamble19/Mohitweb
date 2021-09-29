@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f49529c698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar">
+        <div class="maxwidth">
+            <div class="logo"><a href="#">Portfo<span>lio.</span> </a></div>
+            <ul class="menu" id="menu1">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div class="menubtn">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- home Section -->
+    <section class="home" id="home">
+        <div class="maxwidth">
+            <div class="homecontent">
+                <div class="text1">Hello, My Name is</div>
+                <div class="text2">Mohit Kamble</div>
+                <div class="text3">And I'm a <span>Full Stack Developer</span> </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <hr>
+    <!-- about Section -->
+    <section class="about" id="about">
+        <div class="maxwidth">
+            <h2 class="title">About me</h2>
+            <div class="aboutcontent">
+                <div class="column left">
+                    <img src="dp.JPG" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text4">I am Mohit Kamble and I am a <span>Full Stack Developer</span> </div>
+                    <p>Self-motivated IT professional with deep knowledge and proficiency in <b>HTML</b>, <b>CSS</b>,
+                        <b>JavaScript</b>, <b>ReactJS</b>, <b>Java</b> and <b>mobile responsive website development</b>,
+                        as well as a strong ability to communicate and work in a team effectively, seeks to apply for
+                        the position of Developer.
+                    </p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <hr>
+
+    <!-- skills Section -->
+    <section class="skills" id="skills">
+        <div class="maxwidth">
+            <h2 class="title">My Skills</h2>
+            <div class="skillscontent">
+                <div class="column left">
+                    <div class="text5">My Creative Skills</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa voluptatem beatae quia
+                        aliquid voluptas, necessitatibus rerum recusandae, ullam eum aperiam iure quasi error et! Error
+                        libero consequatur incidunt ex!</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HMTL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line js"></div>
+                        <div class="info">
+                            <span>Java</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line java"></div>
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                        <div class="info">
+                            <span>ReactJS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line rsjs"></div>
+                        <div class="info">
+                            <span>Boostrap</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line boostrap"></div>
+                        <div class="info">
+                            <span>Wordpress</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line wordpress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <hr>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="maxwidth">
+            <div class="title">Contact Me</div>
+            <div class="contactcontent">
+                <div class="column left">
+                    <div class="text6">Get in Touch / Hire Me</div>
+                    <div class="icon">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="heading">Name</div>
+                                <div class="Subtitle">Mohit Kamble</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-address-book"></i>
+                            <div class="info">
+                                <div class="heading">Adress</div>
+                                <div class="Subtitle">Risod, distric- Washim, Maharashtra</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="heading">Mail id</div>
+                                <div class="Subtitle"><a
+                                        href="mailto:mohitkamble19796@gmail.com">mohitkamble19796@gmail.com</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <hr>
+    <footer>
+        <span>Created By</span><a href="#">Mohitkamble</a>| <span class="far fa-copyright"></span> <span>2021 All rights Reserved</span>
+    </footer>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("menu1");
+        if (x.className === "menu") {
+            x.className += " responsive";
+        } else {
+            x.className = "menu";
+        }
+    }
+</script>
+
+</html>
